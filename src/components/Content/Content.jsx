@@ -2,7 +2,7 @@ import React from 'react'
 
 const Content = () => {
     return (
-        <div className='grid grid-cols-2 items-start'>
+        <div className='grid grid-cols-2 items-center'>
             <div>
                 <img src="/images/content.png" className='w-[640px] object-cover' alt="" />
             </div>
