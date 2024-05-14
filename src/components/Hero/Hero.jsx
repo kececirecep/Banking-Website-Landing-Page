@@ -29,10 +29,10 @@ const Hero = () => {
                     <div className='flex gap-12 items-center pt-24'>
                         <span className='flex items-center text-themePink text-24 gap-2 border-r border-gray-500 pr-4'><IoCallOutline /> <h6 className='text-titleColor text-18 font-semibold'>16519</h6></span>
                         <div className='flex items-center gap-4'>
-                            <FaFacebookF style={facebook}size="20px" />
-                            <FaYoutube style={youtube} size="20px"/>
-                            <FaLinkedin style={linkedin} size="20px"/>
-                            <FaInstagram style={instagram} size="20px"/>
+                            <FaFacebookF style={facebook} size="20px" />
+                            <FaYoutube style={youtube} size="20px" />
+                            <FaLinkedin style={linkedin} size="20px" />
+                            <FaInstagram style={instagram} size="20px" />
                         </div>
                     </div>
                 </div>
