@@ -3,6 +3,7 @@ import './App.css';
 import Brands from './components/Brands/Brands';
 import Content from './components/Content/Content';
 import Counter from './components/Counter/Counter';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header'
 import Newsletter from './components/Newsletter/Newsletter';
 import OurServices from './components/OurServices/OurServices';
@@ -18,6 +19,7 @@ function App() {
       <OurServices />
       <Counter />
       <Newsletter />
+      <Footer />
     </div>
   );
 }
