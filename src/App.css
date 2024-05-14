@@ -13,3 +13,7 @@
 body {
     font-family: "Montserrat", sans-serif;
 }
+
+.bx {
+    border: 1px solid red;
+}

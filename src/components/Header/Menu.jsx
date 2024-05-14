@@ -3,7 +3,7 @@ import React from 'react'
 const Menu = () => {
   return (
     <nav>
-      <ul className='flex items-center gap-12'>
+      <ul className='flex items-center gap-12 font-semibold text-14'>
         <li>Retail</li>
         <li>SME</li>
         <li>Corporate</li>

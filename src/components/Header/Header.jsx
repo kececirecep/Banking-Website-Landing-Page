@@ -5,10 +5,12 @@ import Search from './Search'
 
 const Header = () => {
     return (
-        <div className='container flex items-center justify-between py-12'>
-            <Logo />
-            <Menu />
-            <Search/>
+        <div className='bg-transparent py-4  absolute w-full'>
+            <div className="container flex items-center justify-between">
+                <Logo />
+                <Menu />
+                <Search />
+            </div>
         </div>
     )
 }
