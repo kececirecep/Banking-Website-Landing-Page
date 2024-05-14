@@ -14,7 +14,7 @@ const OurServices = () => {
             title: "IPDC Deposit schemes"
         }, {
             img: "/images/our-services/4.png",
-            title: "IPDC auto loan"
+            title: "IPDC auto SCHEMES"
         },
     ]
     return (
