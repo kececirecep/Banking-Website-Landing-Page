@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 
 const Button = (props) => {
     return (
-        <Link> </Link>
+        <Link to={props.link} className={`px-6 py-4 font-semibold rounded uppercase ${props.className}`}>{props.title}</Link>
+
     )
 }
 
