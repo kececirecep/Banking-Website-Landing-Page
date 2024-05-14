@@ -16,7 +16,7 @@ const Brands = () => {
         <div className='bg-sectionBg py-16'>
             <div className="container">
                 <h2 className='text-24 font-medium text-titleColor uppercase text-center py-14 pb-24'>Business Partners</h2>
-                <div className='grid grid-cols-4'>
+                <div className='grid grid-cols-4 justify-items-center'>
                     {
                         brandsImg.map((item, index) => {
                             return (
