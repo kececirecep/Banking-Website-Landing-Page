@@ -11,7 +11,7 @@ const Hero = () => {
                     <div className='flex items-center gap-4'>
                         <Button title="Apply Online" className="bg-themePink text-white text-12" />
                         <Button title="Loan Caclulator" className="bg-white text-themePink border border-themePink text-12" />
-                    </div>
+                    </div> 
                 </div>
                 <div className='bg-lightPink'>
                     <img src="/images/hero.png" className='w-full object-contain' alt="" />
