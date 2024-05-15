@@ -5,7 +5,7 @@ import Search from './Search'
 
 const Header = () => {
     return (
-        <div className='bg-transparent py-4  absolute w-full'>
+        <div className='bg-transparent py-4 absolute w-full'>
             <div className="container flex items-center justify-between">
                 <Logo />
                 <Menu />

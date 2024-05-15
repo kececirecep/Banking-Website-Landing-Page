@@ -38,10 +38,10 @@ const Services = () => {
         },
     ]
     return (
-        <div className='container flex flex-col justify-center items-center py-16'>
-            <h2 className='text-36 font-bold text-titleColor pb-8'>Creating Extraordinary Customer Experience</h2>
-            <p className='text-16 font-medium text-descColor text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />Nullam bibendum eget morbi dignissim eu pharetra consequat montes, sagittis.</p>
-            <div className='grid grid-cols-4 gap-12 pt-28'>
+        <div className='container flex flex-col justify-center items-center py-16 min-w-[390px]'>
+            <h2 className='md:text-4xl text-lg font-bold text-titleColor text-center p-4 md:p-0 md:pb-8' >Creating Extraordinary Customer Experience</h2>
+            <p className='text-16 font-medium text-descColor text-center p-4 md:p-0 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />Nullam bibendum eget morbi dignissim eu pharetra consequat montes, sagittis.</p>
+            <div className='grid grid-cols-2 md:grid-cols-4 gap-12 pt-28 p-3'>
                 {
                     servicesBox.map((item, index) => {
                         return (

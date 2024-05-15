@@ -38,13 +38,13 @@ const Counter = () => {
         }
     ]
     return (
-        <div className='py-24'>
+        <div className='py-24 min-w-[390px]'>
             <div className='container'>
                 <div className='flex justify-center flex-col items-center text-center pb-24'>
                     <h2 className='font-bold text-36 text-titleColor pb-8'>Our best results for the year</h2>
-                    <p className='font-medium text-16 text-descColor w-[35%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, dapibus mattis vel feugiat erat tortor eleifend.</p>
+                    <p className='font-medium text-16 text-descColor w-[90%] md:w-[35%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, dapibus mattis vel feugiat erat tortor eleifend.</p>
                 </div>
-                <div className='grid grid-cols-4 justify-center gap-12'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 justify-center gap-0 md:gap-12 justify-items-center text-center'>
                     {
                         counterData.map((item, index) => {
                             return (

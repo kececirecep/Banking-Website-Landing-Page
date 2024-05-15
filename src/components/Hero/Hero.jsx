@@ -16,19 +16,20 @@ const Hero = () => {
     const instagram = {
         color: "#E10179"
     }
+
     return (
-        <div className=''>
-            <div className="flex items-center justify-between">
-                <div className='pl-48'>
+        <div className="flex flex-col-reverse md:flex-row md:h-screen w-full items-center justify-around min-w-[390px]">
+            <div className='w-full h-full flex items-center justify-center p-4 pl-[58px]'>
+                <div className=''>
                     <h2 className='text-63 font-black text-black'>Chase Your <br />Dream with us</h2>
-                    <p className='text-16 font-medium text-descColor w-[55%] py-12'>The harder you work for something, the greater you’ll feel when you achieve it.</p>
-                    <div className='flex items-center gap-4'>
+                    <p className='text-16 font-medium text-descColor w-full md:w-[55%] py-12 text-center md:text-start'>The harder you work for something, the greater you’ll feel when you achieve it.</p>
+                    <div className='flex items-center gap-4 md:justify-start justify-center'>
                         <Button title="Apply Online" className="bg-themePink text-white text-12" />
                         <Button title="Loan Caclulator" className="bg-white text-themePink border border-themePink text-12" />
                     </div>
-                    <div className='flex gap-12 items-center pt-24'>
+                    <div className='flex gap-4 items-center pt-24 justify-center md:justify-start'>
                         <span className='flex items-center text-themePink text-24 gap-2 border-r border-gray-500 pr-4'><IoCallOutline /> <h6 className='text-titleColor text-18 font-semibold'>16519</h6></span>
-                        <div className='flex items-center gap-4'>
+                        <div className='flex items-center md:justify-start justify-center gap-4'>
                             <FaFacebookF style={facebook} size="20px" />
                             <FaYoutube style={youtube} size="20px" />
                             <FaLinkedin style={linkedin} size="20px" />
@@ -36,11 +37,9 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-lightPink h-screen flex items-center'>
-                    <img src="/images/hero.png" className='w-full object-contain' alt="" />
-                </div>
-
-
+            </div>
+            <div className='bg-lightPink flex w-full md:h-screen justify-center min-h-[500px]'>
+                <img src="/images/hero.png" className='w-[350px] md:w-full object-contain min-h-[500px]' alt="" />
             </div>
         </div>
     )

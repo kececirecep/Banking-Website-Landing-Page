@@ -1,16 +1,14 @@
 import React from 'react'
-import { IoSearchOutline } from "react-icons/io5";
-import Button from '../Button';
+import { IoCallSharp } from "react-icons/io5";
 
 
 const Search = () => {
     const iconStyle = {
         color: "#ED017F",
-    } 
+    }
     return (
-        <div>
-            <IoSearchOutline size="24px" style={iconStyle} />
-            <Button  />
+        <div className=''>
+            <IoCallSharp size="24px" style={iconStyle} /> 
         </div>
     )
 }

@@ -18,17 +18,17 @@ const OurServices = () => {
         },
     ]
     return (
-        <div className='bg-sectionBg py-24'>
+        <div className='bg-sectionBg py-24 min-w-[390px]'>
             <div className='container'>
                 <div className='text-center pb-24'>
                     <h2 className='font-bold text-36 text-titleColor pb-8'>Our Services</h2>
                     <p className='font-medium text-16 text-descColor'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, dapibus mattis vel feugiat erat tortor eleifend.</p>
                 </div>
-                <div className='grid grid-cols-4 gap-12'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 justify-items-center md:justify-items-start'>
                     {
                         OurServicesData.map((item, index) => {
                             return (
-                                <div key={index}>
+                                <div key={index} className='w-[300px] md:w-full'>
                                     <OurServicesCard img={item.img} title={item.title} />
                                 </div>
                             )
